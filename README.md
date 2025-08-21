@@ -5,52 +5,52 @@ This project implements an AES (Advanced Encryption Standard) Encryption Engine 
 
 ⚡ Features
 
-Implements AES-128 encryption algorithm
+1.Implements AES-128 encryption algorithm
 
-Core modules:
+2.Core modules:
 
-     SubBytes (Byte substitution using S-box)
+  a.SubBytes (Byte substitution using S-box)
 
-     ShiftRows (Cyclic row shifting)
+  b.ShiftRows (Cyclic row shifting)
 
-     MixColumns (Column mixing transformation)
+  c.MixColumns (Column mixing transformation)
 
-      AddRoundKey (Key addition with state matrix)
+  d.AddRoundKey (Key addition with state matrix)
 
-Key Expansion (Round key generation)
+  e.Key Expansion (Round key generation)
 
-Handles 128-bit plain text & key input
+3.Handles 128-bit plain text & key input
 
-Produces 128-bit encrypted output
+4.Produces 128-bit encrypted output
 
-Designed in modular Verilog RTL for clarity and scalability
+5.Designed in modular Verilog RTL for clarity and scalability
 
 🛠 Tools & Technologies
 
-Verilog HDL – RTL design
+1.Verilog HDL – RTL design
 
-Cadence NC-Sim / SimVision – Simulation & functional verification
+2.Cadence NC-Sim / SimVision – Simulation & functional verification
 
-Cadence Genus – RTL Synthesis & Timing Analysis
+3.Cadence Genus – RTL Synthesis & Timing Analysis
 
-Cadence Innovus – Place & Route (Physical design)
+4.Cadence Innovus – Place & Route (Physical design)
 
-GDSII Export – Final chip layout generation
+5.GDSII Export – Final chip layout generation
 
 ✅ Results
 
-Successfully implemented and verified AES-128 encryption engine
+1.Successfully implemented and verified AES-128 encryption engine
 
-Testbenches validate encryption across multiple plaintexts and keys
+2.Testbenches validate encryption across multiple plaintexts and keys
 
-Synthesized netlist with optimized area, power, and timing reports
+3.Synthesized netlist with optimized area, power, and timing reports
 
-Physical design completed with layout (GDSII) generation
+4.Physical design completed with layout (GDSII) generation
 
 🚀 Applications
 
-Data encryption in IoT and embedded devices
+1.Data encryption in IoT and embedded devices
 
-Secure communication in hardware systems
+2.Secure communication in hardware systems
 
-Cryptography-based VLSI design research
+3.Cryptography-based VLSI design research
