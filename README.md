@@ -9,13 +9,13 @@ Implements AES-128 encryption algorithm
 
 Core modules:
 
-SubBytes (Byte substitution using S-box)
+     SubBytes (Byte substitution using S-box)
 
-ShiftRows (Cyclic row shifting)
+     ShiftRows (Cyclic row shifting)
 
-MixColumns (Column mixing transformation)
+     MixColumns (Column mixing transformation)
 
-AddRoundKey (Key addition with state matrix)
+      AddRoundKey (Key addition with state matrix)
 
 Key Expansion (Round key generation)
 
