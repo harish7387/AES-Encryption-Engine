@@ -5,7 +5,7 @@ This project implements an AES (Advanced Encryption Standard) Encryption Engine 
 
 ⚡ Features
 
-1.--*Implements AES-128 encryption algorithm*
+1**Implements AES-128 encryption algorithm**
 
 2.Core modules:
 
